@@ -5,11 +5,13 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.powermock.core.classloader.annotations.PowerMockIgnore;
 import saros.context.CoreContextFactory;
 import saros.context.IContainerContext;
 import saros.context.IContextFactory;
 import saros.test.mocks.ContextMocker;
 
+@PowerMockIgnore({"javax.xml.*"})
 /** Checks the Saros/I context for integrity. */
 public class SarosIntellijContextTest extends AbstractContextTest {
 
