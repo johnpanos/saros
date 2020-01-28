@@ -13,8 +13,8 @@ The results of the analysis are available through the GitHub interface or can be
 
 ## Pull-Request-Triggered Jobs
 
-Travis CI also runs when a new pull request is created or an existing pull request is updated.
-See the [Travis documentation](https://docs.travis-ci.com/user/pull-requests/#%E2%80%98Double-builds%E2%80%99-on-pull-requests) for more information.
+GitHub Actions also runs when a new pull request is created or an existing pull request is updated.
+See the [GitHub Actions](https://help.github.com/en/actions) for more information.
 These jobs are identical to the jobs triggered by a push. The only difference is that issues of the static code analysis are also reported in the pull request.
 
 ## Daily Jobs
